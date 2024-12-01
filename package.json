@@ -1,0 +1,20 @@
+{
+  "name": "playwright_repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test:all:headless": "playwright test",
+    "test:all": "playwright test --headed",
+    "test:chrome": "playwright test --project chrome --headed",
+    "test:ui": "playwright test --ui"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.10.0",
+    "jest": "^29.7.0"
+  }
+}
