@@ -1,4 +1,6 @@
+//Lesson 24
 // Оголошення класу 
+
 export default class BasePage {
   constructor(page, context, url) {
     this.page = page;
